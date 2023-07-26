@@ -25,15 +25,16 @@ public class Staff{
         return eName;
     }
 
-
-
-
     public void setSalary(long salary) {
         this.salary = salary;
     }
 
+     public long getSalary() {
+        return salary;
+    }
+
 
     public String toString() {
-        return "{Staff Id=" + eId +", Staff Name='" + eName +", Staff salary=" + salary + '}';
+        return "{Staff Id=" + eId +", Staff Name=" + eName +", Staff salary=" + salary + '}';
     }
 }
